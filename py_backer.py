@@ -1,20 +1,17 @@
 # Written by Karac Thweatt aka Father Crypto for UTTCex
 
-import time
-import os
-import shutil
+import time, os, shutil, json
 
-# Directory to monitor
-source_dir = "C:\\Users\\UTTCex Mainframe\\OneDrive\\Desktop\\Src"
+backer_ver = "1.0"
 
-# Target backup directory
-backup_dir = "C:\\Users\\UTTCex Mainframe\\OneDrive\\Desktop\\Dest"
+source_dir = ""
+backup_dir = ""
 
 def copy_file(file_path):
     file_name = os.path.basename(file_path)
     shutil.copy2(file_path, os.path.join(backup_dir, file_name))
 
-def monitor_directory():
+def monitor_directory(source_dir, backup_dir):
     file_mod_times = {}
 
     while True:
@@ -29,4 +26,13 @@ def monitor_directory():
         time.sleep(5)
 
 if __name__ == "__main__":
-    monitor_directory()
+    with open("config.json", "r") as config_file:
+        config_file.seek(0)
+        data = json.loads(config_file.read())
+        proj_name = data["project_name"]
+        proj_ver = data["project_version"]
+        source_dir = data["source_dir"]
+        backup_dir = data["backup_dir"]
+
+    print(f"PyBacker {backer_ver}\nMonitoring project: {proj_name} v{proj_ver}")
+    monitor_directory(source_dir, backup_dir)
