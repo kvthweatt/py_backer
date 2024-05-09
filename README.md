@@ -1,5 +1,5 @@
 # PyBacker
-A backup daemon written in Python to help keep a project maintained.
+A backup daemon written in Python to help keep a project backed up.
 
 You can set a source directory to a backup directory to create a backup chain for double/triple/... backups.
 
