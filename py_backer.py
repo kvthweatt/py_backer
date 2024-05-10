@@ -1,9 +1,6 @@
 # Written by Karac Thweatt aka Father Crypto for UTTCex
 
-import time
-import os
-import shutil
-import json
+import time, os, shutil, json
 
 backer_ver = "1.1"
 
