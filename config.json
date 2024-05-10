@@ -2,11 +2,11 @@
     "project_name": "",
     "project_version": "",
     "source_dirs": {
-        "0": "",
-        "1": ""
+        "0": "C:\\ExampleSourceDir1",
+        "1": "C:\\ExampleDestDir1"
     },
     "backup_dirs": {
-        "0": "",
-        "1": ""
+        "0": "C:\\ExampleDestDir1",
+        "1": "C:\\ExampleDestDir2"
     }
 }
