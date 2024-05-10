@@ -6,3 +6,4 @@ You can set a backup directory as a source directory to create a backup chain fo
 ## To-Do:
 - Add command line args for CLI operation and a GUI.
 - Add the ability to backup over FTP / SFTP
+- Update the config and source to support multi-source chaining
