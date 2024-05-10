@@ -1,6 +1,12 @@
 {
-	"project_name": "",
-	"project_version": "",
-	"source_dir": "",
-	"backup_dir": ""
+    "project_name": "",
+    "project_version": "",
+    "source_dirs": {
+        "0": "",
+        "1": ""
+    },
+    "backup_dirs": {
+        "0": "",
+        "1": ""
+    }
 }
