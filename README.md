@@ -1,5 +1,5 @@
 # PyBacker
-A backup daemon written in Python to help you maintain files in the event they are lost or deleted on accident.
+A simple, lightweight backup daemon written in Python to help you maintain files in the event they are lost or deleted on accident.
 
 You can set a backup directory as a source directory to create a backup chain for double/triple/... backups.
 
