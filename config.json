@@ -1,6 +1,6 @@
 {
-    "project_name": "",
-    "project_version": "",
+    "project_name": "Your Project Name",
+    "project_version": "1.0",
     "source_dirs": {
         "0": "C:\\ExampleSourceDir1",
         "1": "C:\\ExampleDestDir1"
