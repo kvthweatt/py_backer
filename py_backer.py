@@ -2,7 +2,7 @@
 
 import time, os, shutil, json
 
-backer_ver = "1.0"
+backer_ver = "1.3"
 
 def copy_item(item_path, backup_dir):
     item_name = os.path.basename(item_path)
