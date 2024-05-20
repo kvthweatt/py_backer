@@ -8,5 +8,11 @@
     "backup_dirs": {
         "0": "C:\\ExampleDestDir1",
         "1": "C:\\ExampleDestDir2"
+    },
+    "backup_times": {
+        "0": "0",
+        "1": "5",
+        "2": "0",
+        "3": "5"
     }
 }
