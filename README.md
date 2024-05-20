@@ -9,7 +9,7 @@ Written to operate on Windows systems.
 You will notice inside the config.json there are source and destination directories with numeric key values that increment.
 Each numeric key of a source directory path corresponds to the destination directory path with the same key.
 You can add an unlimited amount of sources/destinations.
-- You must be sure to have an equal number of sources and destinations because the key indexes are related to each other, Otherwise, PyBacker will crash.
+- You must be sure to have an equal number of sources and destinations because the key indexes are related to each other, otherwise, PyBacker will crash.
 
 ## To-Do:
 - Add command line args for CLI operation and a GUI.
