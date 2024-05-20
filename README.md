@@ -16,6 +16,7 @@ You can add an unlimited amount of sources/destinations.
 - Add the ability to backup over FTP / SFTP
 
 ## Changelog
+- v1.3 Updated to perform recursive directory backup and display an error for any failed items.
 - v1.2 Updated to support backup times to allow for staggered backups.
 - v1.1 Updated to support multiple backup directories
 - v1.0 base release
