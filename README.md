@@ -9,6 +9,11 @@ Written to operate on Windows systems.
 - Add command line args for CLI operation and a GUI.
 - Add the ability to backup over FTP / SFTP
 
+## Changelog
+- v1.0 base release
+- v1.1 Updated to support multiple backup directories
+- v1.2 Updated to support backup times to allow for staggered backups.
+
 ## Configuring PyBacker
 You will notice inside the config.json there are source and destination directories with numeric key values that increment.
 Each numeric key of a source directory path corresponds to the destination directory path with the same key.
